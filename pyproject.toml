@@ -17,5 +17,6 @@ dependencies = [
     "xgboost",
     "pandas",
     "numpy",
-    "mlflow"
+    "mlflow",
+    "pydantic-settings>=2.14.1",
 ]
