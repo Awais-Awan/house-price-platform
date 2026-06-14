@@ -15,6 +15,7 @@ app = FastAPI(
 
 @app.get("/")
 def root():
+    logger.info("Root endpoint accessed")
     return{
         "message" : f"Welcome to {settings.app_name} version {settings.version}!"
     }
